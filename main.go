@@ -5,5 +5,5 @@ import "fmt"
 func main() {
 	colors := make(map[string]string)
 	colors["red"] = "#ff0000"
-	fmt.Println(colors)
+	fmt.Println(colors["red"])
 }
